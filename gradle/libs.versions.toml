@@ -1,0 +1,25 @@
+[versions]
+agp = "8.7.3"
+appcompat = "1.6.1"
+material = "1.9.0"
+constraintlayout = "2.1.4"
+lifecycle = "2.6.1"
+navigation = "2.6.0"
+junit = "4.13.2"
+ext-junit = "1.1.5"
+espresso-core = "3.5.1"
+
+[libraries]
+appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle" }
+lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+navigation-fragment = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigation" }
+navigation-ui = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigation" }
+junit = { module = "junit:junit", version.ref = "junit" }
+ext-junit = { module = "androidx.test.ext:junit", version.ref = "ext-junit" }
+espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso-core" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
